@@ -1,4 +1,4 @@
-const { Workout } = require("../models");
+// const { Workout } = require("../models");
 var db = require("../models");
 const path = require ("path");
 
@@ -6,6 +6,7 @@ module.exports = function(app) {
 
     // get all workouts
     app.get("/all", (req, res) => {
+        console.log("/all route works")
         db.Workout.find({})
           .then(data => {
             res.json(data);
@@ -37,5 +38,5 @@ module.exports = function(app) {
 
 
 
-    
+
 }
