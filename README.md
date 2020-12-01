@@ -14,7 +14,7 @@ This is an application that lets you track your exercise progress across differe
 * [Questions](#Questions)
 
 ## Installation
-This is deployed web application, so no installation is required. Check it out at Demo of the app: https://
+This is deployed web application, so no installation is required. Check it out at Demo of the app: https://dry-stream-50151.herokuapp.com/
 
 ## Usage
 Click "New Workout" to start your workout. After completing each exercise (resistance or cardio) click "Continue Workout" to add the exercise to the workout. When you return to the gym, you'll be greeted with the last workout you completed so you can try to improve a little each day!
